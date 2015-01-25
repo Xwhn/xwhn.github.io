@@ -1,24 +1,30 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800);
 
 html, body {
-    padding: 0px;
     margin: 0px;
-    
+    padding: 0px;
     height: 100%;
-    
+    overflow: hidden;
     
     font-family: 'Open Sans', sans-serif;
-    
-    overflow: hidden;
 }
 
-.container { 
+.home {
+    height: 100%;
+    background: #fff;
+}
+
+.container {
+    height: 100%;
+}
+
+.inner {
     position: relative;
-    
     top: calc(50% - 48px);
+    text-align: center;
 }
 
-.footerbox {
+.notebox {
     position: absolute;
     height: 64px;
     width: 100%;
@@ -27,154 +33,12 @@ html, body {
     top: calc(100% - 64px);
 }
 
-.footernote {
+.note {
     width: 100%;
     position: absolute;
     text-align: center;
     font-size: 12px;
-
 }
-
-.footernotetwo {
-    width: 100%;
-    position: absolute;
-    text-align: center;
-    font-size: 12px;
-    margin: 16px;
-}
-
-.hiddenright{
-    position: fixed;
-    
-    top: 0px;
-    
-    height: 100%;
-    width: 48px;
-    
-    background: black;
-    opacity: 0;
-    
-    right: 0;
-    z-index: -10;
-    
-}
-
-.hiddenleft {
-    position: fixed;
-    
-    top: 0px;
-    
-    height: 100%;
-    width: 48px;
-    
-    background: black;
-    opacity: 0;
-    
-    left: 0;
-    z-index: -10;
-    
-}
-
-.rightmenu {
-    position: fixed;
-    
-    
-    width: 32px;
-    height: 152px;
-    
-    top: calc(50% - 76px);
-    right: -40px;
-    
-    transition: right 500ms linear;
-    -webkit-transition: right 500ms linear;
-    -moz-transition: right 500ms linear;
-    -o-transition: right 500ms linear;
-    
-}
-
-.rightmenu:hover {
-    right: 8px;
-
-}
-
-.leftmenu {
-    position: fixed;
-    
-    width: 32px;
-    height: 152px;
-    
-    top: calc(50% - 76px);
-    left: -40px;
-    
-    transition: left 500ms linear;
-    -webkit-transition: left 500ms linear;
-    -moz-transition: left 500ms linear;
-    -o-transition: left 500ms linear;    
-    
-}
-
-.leftmenu:hover {
-    left: 8px;
-}
-
-
-.firstnav {
-    height: 32px;
-    background: black;
-    
-    margin-top: 0px;
-    
-    opacity: 0.1;
-
-}
-
-.firstnav:hover{
-    opacity: 1;
-}
-
-.secondnav {
-    height: 32px;
-    background: black;
-    
-    margin-top: 8px;
-    
-    opacity: 0.1;
-
-}
-
-.secondnav:hover{
-    opacity: 1;
-}
-
-.thirdnav {
-    height: 32px;
-    background: black;
-        
-    margin-top: 8px;
-    
-    opacity: 0.1;
-
-}
-
-.thirdnav:hover{
-    opacity: 1;
-}
-
-.fourthnav {
-    height: 32px;
-    background: black;
-       
-    margin-top: 8px;
-    
-    opacity: 0.1;
-
-}
-
-.fourthnav:hover{
-    opacity: 1;
-}
-
-
 
 .rect {
     height: 64px;
@@ -186,11 +50,6 @@ html, body {
     
     animation: rectani 10s infinite;
     -webkit-animation: rectani 10s infinite;
-    
-}
-
-.red:hover{
-    
 }
 
 @keyframes rectani {
@@ -207,13 +66,6 @@ html, body {
     50% {background: #571B3C}
     75% {background: #341931}
     100% {background: #9D2053}
-}
-
-.snippet {
-    font-size: 16px;
-    text-align: center;
-
-
 }
 
 .blank {
@@ -255,3 +107,211 @@ html, body {
             50% { opacity:0; }
             100% { opacity:1; }
         }
+
+/*menu*/
+
+.hiddenright{
+    position: fixed;
+    
+    top: 0px;
+    
+    height: 100%;
+    width: 48px;
+    
+    background: black;
+    opacity: 0;
+    
+    right: 0;
+    z-index: -10;
+    
+}
+
+.rightmenu {
+    position: fixed;
+    z-index: 50;
+    
+    width: 32px;
+    height: 152px;
+    
+    top: calc(50% - 76px);
+    right: -40px;
+    
+    -webkit-transition: right 500ms cubic-bezier(0.445, 0.05, 0.55, 0.95);
+    -moz-transition: right 500ms cubic-bezier(0.445, 0.05, 0.55, 0.95);
+    -o-transition: right 500ms cubic-bezier(0.445, 0.05, 0.55, 0.95);
+    -ms-transition: right 500ms cubic-bezier(0.445, 0.05, 0.55, 0.95);
+    transition: right 500ms cubic-bezier(0.445, 0.05, 0.55, 0.95);
+}
+
+.rightmenu:hover {
+    right: 8px;
+
+}
+
+.firstright {
+    height: 32px;
+    background: black;
+    
+    margin-top: 0px;
+    
+    opacity: 0.1;
+
+}
+
+.firstright:hover{
+    opacity: 1;
+}
+
+.secondright {
+    height: 32px;
+    background: black;
+    
+    margin-top: 8px;
+    
+    opacity: 0.1;
+
+}
+
+.secondright:hover{
+    opacity: 1;
+}
+
+.thirdright {
+    height: 32px;
+    background: black;
+        
+    margin-top: 8px;
+    
+    opacity: 0.1;
+
+}
+
+.thirdright:hover{
+    opacity: 1;
+}
+
+.fourthright {
+    height: 32px;
+    background: black;
+       
+    margin-top: 8px;
+    
+    opacity: 0.1;
+
+}
+
+.fourthright:hover{
+    opacity: 1;
+}
+
+.hiddenleft{
+    position: fixed;
+    
+    top: 0px;
+    
+    height: 100%;
+    width: 48px;
+    
+    background: black;
+    opacity: 0;
+    
+    left: 0;
+    z-index: -10;
+    
+}
+
+
+.leftmenu {
+    position: fixed;
+    z-index: 50;
+    
+    width: 32px;
+    height: 152px;
+    
+    top: calc(50% - 76px);
+    left: -40px;
+    
+    -webkit-transition: left 500ms cubic-bezier(0.445, 0.05, 0.55, 0.95);
+    -moz-transition: left 500ms cubic-bezier(0.445, 0.05, 0.55, 0.95);
+    -o-transition: left 500ms cubic-bezier(0.445, 0.05, 0.55, 0.95);  
+    -ms-transition: left 500ms cubic-bezier(0.445, 0.05, 0.55, 0.95);
+    transition: left 500ms cubic-bezier(0.445, 0.05, 0.55, 0.95);
+}
+
+.leftmenu:hover {
+    left: 8px;
+}
+
+
+.firstleft {
+    height: 32px;
+    background: black;
+    
+    margin-top: 0px;
+    
+    opacity: 0.1;
+
+}
+
+.firstleft:hover{
+    opacity: 1;
+}
+
+.secondleft {
+    height: 32px;
+    background: black;
+    
+    margin-top: 8px;
+    
+    opacity: 0.1;
+
+}
+
+.secondleft:hover{
+    opacity: 1;
+}
+
+.thirdleft {
+    height: 32px;
+    background: black;
+        
+    margin-top: 8px;
+    
+    opacity: 0.1;
+
+}
+
+.thirdleft:hover{
+    opacity: 1;
+}
+
+.fourthleft {
+    height: 32px;
+    background: black;
+       
+    margin-top: 8px;
+    
+    opacity: 0.1;
+
+}
+
+.fourthleft:hover{
+    opacity: 1;
+}
+
+/*menu*/
+
+.secondpage {
+    height: 100%;
+    background: #819a2f;
+}
+
+.thirdpage {
+    height: 100%;
+    background: #a0234a;
+}
+
+.fourthpage {
+    height: 100%;
+    background: #3e628d;
+}
