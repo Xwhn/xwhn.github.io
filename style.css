@@ -22,7 +22,7 @@ html, body {
     position: absolute;
     height: 64px;
     width: 100%;
-    line-height: 32px;
+    line-height: 64px;
     
     top: calc(100% - 64px);
 }
@@ -32,6 +32,15 @@ html, body {
     position: absolute;
     text-align: center;
     font-size: 12px;
+
+}
+
+.footernotetwo {
+    width: 100%;
+    position: absolute;
+    text-align: center;
+    font-size: 12px;
+    margin: 16px;
 }
 
 .hiddenright{
