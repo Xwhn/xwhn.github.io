@@ -22,7 +22,7 @@ html, body {
     position: absolute;
     height: 64px;
     width: 100%;
-    line-height: 16px;
+    line-height: 32px;
     
     top: calc(100% - 64px);
 }
