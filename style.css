@@ -30,6 +30,16 @@ html, body {
     
 }
 
+.leftmenu {
+    position: absolute;
+    
+    width: 32px;
+    height: 152px;
+    
+    top: calc(50% - 76px);
+    left: 8px;
+}
+
 
 .firstnav {
     height: 32px;
