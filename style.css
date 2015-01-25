@@ -8,6 +8,7 @@ html, body {
     
     
     font-family: 'Open Sans', sans-serif;
+    overflow: hidden;
 }
 
 .container { 
@@ -16,27 +17,109 @@ html, body {
     top: calc(50% - 48px);
 }
 
+.rightmenu {
+    position: absolute;
+    
+    
+    width: 32px;
+    height: 152px;
+    
+    top: calc(50% - 76px);
+    right: 8px;
+    
+    
+}
+
+
+.firstnav {
+    height: 32px;
+    background: black;
+    
+    margin-top: 0px;
+    
+    opacity: 0.5;
+
+}
+
+.firstnav:hover{
+    opacity: 1;
+}
+
+.secondnav {
+    height: 32px;
+    background: black;
+    
+    margin-top: 8px;
+    
+    opacity: 0.5;
+
+}
+
+.secondnav:hover{
+    opacity: 1;
+}
+
+.thirdnav {
+    height: 32px;
+    background: black;
+        
+    margin-top: 8px;
+    
+    opacity: 0.5;
+
+}
+
+.thirdnav:hover{
+    opacity: 1;
+}
+
+.fourthnav {
+    height: 32px;
+    background: black;
+       
+    margin-top: 8px;
+    
+    opacity: 0.5;
+
+}
+
+.fourthnav:hover{
+    opacity: 1;
+}
+
+
+
 .rect {
     height: 64px;
     width: 64px;
-
-    background: #000;
-    opacity: 0.3;     
-    
+  
     margin: 0 auto;
     
     position: relative;
     
-    -webkit-transition:background 500ms ease-in-out, opacity 500ms linear;
-    -moz-transition:background 500ms ease-in-out, opacity 500ms linear;
-    -o-transition:background 500ms ease-in-out, opacity 500ms linear;
-    transition:background 500ms ease-in-out, opacity 500ms linear;
+    animation: rectani 10s infinite;
+    -webkit-animation: rectani 10s infinite;
     
 }
 
-.rect:hover {
-    opacity: 1;
-    background: #000;
+.red:hover{
+    
+}
+
+@keyframes rectani {
+    0% {background: #9D2053}
+    25% {background: #7A1E48}
+    50% {background: #571B3C}
+    75% {background: #341931}
+    100% {background: #9D2053}
+}
+
+@-webkit-keyframes rectani {
+    0% {background: #9D2053}
+    25% {background: #7A1E48}
+    50% {background: #571B3C}
+    75% {background: #341931}
+    100% {background: #9D2053}
 }
 
 .snippet {
