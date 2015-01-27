@@ -1,0 +1,108 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800);
+
+html, body {
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    overflow: hidden;
+
+    font-family: 'Open Sans', sans-serif;
+}
+
+#home {
+    height: 100%;
+    background: #fff;
+}
+
+.container {
+    height: 100%;
+}
+
+.inner {
+    position: relative;
+    top: calc(50% - 128px);
+    text-align: center;
+}
+
+.notebox {
+    position: absolute;
+    height: 64px;
+    width: 100%;
+    line-height: 64px;
+
+    top: calc(100% - 64px);
+}
+
+.note {
+    width: 100%;
+    position: absolute;
+    text-align: center;
+    font-size: 12px;
+}
+
+.rect {
+    background: url(../assets/image.png) no-repeat center center;
+    background-size: cover;
+    height: 256px;
+    width: 512px;
+
+    margin: 0 auto;
+
+    position: relative;
+}
+
+.blank {
+    height: 16px;
+}
+
+/*blink*/
+       .typed-cursor{
+            opacity: 1;
+            font-weight: 500;
+            -webkit-animation: blink 1s infinite;
+            -moz-animation: blink 1s infinite;
+            -ms-animation: blink 1s infinite;
+            -o-animation: blink 1s infinite;
+            animation: blink 1s infinite;
+        }
+        @-keyframes blink{
+            0% { opacity:1; }
+            50% { opacity:0; }
+            100% { opacity:1; }
+        }
+        @-webkit-keyframes blink{
+            0% { opacity:1; }
+            50% { opacity:0; }
+            100% { opacity:1; }
+        }
+        @-moz-keyframes blink{
+            0% { opacity:1; }
+            50% { opacity:0; }
+            100% { opacity:1; }
+        }
+        @-ms-keyframes blink{
+            0% { opacity:1; }
+            50% { opacity:0; }
+            100% { opacity:1; }
+        }
+        @-o-keyframes blink{
+            0% { opacity:1; }
+            50% { opacity:0; }
+            100% { opacity:1; }
+        }
+
+
+#secondpage {
+    height: 100%;
+    background: #819a2f;
+}
+
+#thirdpage {
+    height: 100%;
+    background: #a0234a;
+}
+
+#fourthpage {
+    height: 100%;
+    background: #3e628d;
+}
