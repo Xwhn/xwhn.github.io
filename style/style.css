@@ -41,8 +41,7 @@ html, body {
 }
 
 .rect {
-    background: url(../assets/image.png) no-repeat center center;
-    background-size: cover;
+    background: url(../assets/image.png) no-repeat center center fixed;
     height: 256px;
     width: 512px;
 
