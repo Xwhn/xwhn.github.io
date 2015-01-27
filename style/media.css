@@ -22,7 +22,7 @@ html, body {
 
 .inner {
     position: relative;
-    top: calc(50% - 32px);
+    top: calc(50% - 64px);
     text-align: center;
 }
 
@@ -45,8 +45,8 @@ html, body {
 .rect {
     background: url(../assets/image.png) no-repeat center center;
     background-size: cover;
-    height: 64px;
-    width: 128px;
+    height: 128px;
+    width: 256px;
 
     margin: 0 auto;
 
