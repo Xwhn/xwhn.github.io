@@ -9,7 +9,7 @@ html, body {
     font-family: 'Open Sans', sans-serif;
 }
 
-.home {
+#home {
     height: 100%;
     background: #fff;
 }
@@ -20,7 +20,7 @@ html, body {
 
 .inner {
     position: relative;
-    top: calc(50% - 48px);
+    top: calc(50% - 128px);
     text-align: center;
 }
 
@@ -41,31 +41,13 @@ html, body {
 }
 
 .rect {
-    height: 64px;
-    width: 64px;
+    background: url(image.png) no-repeat center center fixed;
+    height: 256px;
+    width: 512px;
   
     margin: 0 auto;
     
     position: relative;
-    
-    animation: rectani 10s infinite;
-    -webkit-animation: rectani 10s infinite;
-}
-
-@keyframes rectani {
-    0% {background: #9D2053}
-    25% {background: #7A1E48}
-    50% {background: #571B3C}
-    75% {background: #341931}
-    100% {background: #9D2053}
-}
-
-@-webkit-keyframes rectani {
-    0% {background: #9D2053}
-    25% {background: #7A1E48}
-    50% {background: #571B3C}
-    75% {background: #341931}
-    100% {background: #9D2053}
 }
 
 .blank {
@@ -301,17 +283,18 @@ html, body {
 
 /*menu*/
 
-.secondpage {
+#secondpage {
     height: 100%;
     background: #819a2f;
 }
 
-.thirdpage {
+#thirdpage {
     height: 100%;
     background: #a0234a;
 }
 
-.fourthpage {
+#fourthpage {
     height: 100%;
     background: #3e628d;
 }
+
