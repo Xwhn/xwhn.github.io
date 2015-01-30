@@ -1,0 +1,941 @@
+/*
+  Icon Font: fontcustom
+*/
+
+@font-face {
+  font-family: "fontcustom";
+  src: url("./fontcustom_421530d5e09c967153e2bb5feda32360.eot");
+  src: url("./fontcustom_421530d5e09c967153e2bb5feda32360.eot?#iefix") format("embedded-opentype"),
+       url("./fontcustom_421530d5e09c967153e2bb5feda32360.woff") format("woff"),
+       url("./fontcustom_421530d5e09c967153e2bb5feda32360.ttf") format("truetype"),
+       url("./fontcustom_421530d5e09c967153e2bb5feda32360.svg#fontcustom") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "fontcustom";
+    src: url("./fontcustom_421530d5e09c967153e2bb5feda32360.svg#fontcustom") format("svg");
+  }
+}
+
+[data-icon]:before { content: attr(data-icon); }
+
+[data-icon]:before,
+.icon-ac-adapter:before,
+.icon-accessories-calculator:before,
+.icon-accessories-character-map:before,
+.icon-accessories-dictionary:before,
+.icon-accessories-text-editor:before,
+.icon-action-unavailable:before,
+.icon-address-book-new:before,
+.icon-airplane-mode:before,
+.icon-alarm:before,
+.icon-applets-screenshooter:before,
+.icon-application-certificate:before,
+.icon-application-exit:before,
+.icon-application-rss-xml:before,
+.icon-application-x-appliance:before,
+.icon-applications-accessories:before,
+.icon-applications-development:before,
+.icon-applications-engineering:before,
+.icon-applications-games:before,
+.icon-applications-graphics:before,
+.icon-applications-internet:before,
+.icon-applications-multimedia:before,
+.icon-applications-office:before,
+.icon-applications-other:before,
+.icon-applications-science:before,
+.icon-applications-system:before,
+.icon-applications-utilities:before,
+.icon-appointment-missed:before,
+.icon-appointment-new:before,
+.icon-appointment-soon:before,
+.icon-audio-card:before,
+.icon-audio-headphones:before,
+.icon-audio-headset:before,
+.icon-audio-input-microphone:before,
+.icon-audio-speakers:before,
+.icon-audio-volume-high:before,
+.icon-audio-volume-low:before,
+.icon-audio-volume-medium:before,
+.icon-audio-volume-muted:before,
+.icon-audio-x-generic:before,
+.icon-avatar-default:before,
+.icon-battery:before,
+.icon-battery-caution:before,
+.icon-battery-caution-charging:before,
+.icon-battery-empty:before,
+.icon-battery-empty-charging:before,
+.icon-battery-full:before,
+.icon-battery-full-charged:before,
+.icon-battery-full-charging:before,
+.icon-battery-good:before,
+.icon-battery-good-charging:before,
+.icon-battery-low:before,
+.icon-battery-low-charging:before,
+.icon-battery-missing:before,
+.icon-bluetooth:before,
+.icon-bluetooth-active:before,
+.icon-bluetooth-disabled:before,
+.icon-bookmark-new:before,
+.icon-call-missed:before,
+.icon-call-start:before,
+.icon-call-stop:before,
+.icon-camera-photo:before,
+.icon-camera-video:before,
+.icon-camera-web:before,
+.icon-changes-allow:before,
+.icon-changes-prevent:before,
+.icon-channel-insecure:before,
+.icon-channel-secure:before,
+.icon-checkbox:before,
+.icon-checkbox-checked:before,
+.icon-checkbox-mixed:before,
+.icon-colorimeter-colorhug:before,
+.icon-computer:before,
+.icon-computer-apple-ipad:before,
+.icon-computer-fail:before,
+.icon-contact-new:before,
+.icon-content-loading:before,
+.icon-dialog-error:before,
+.icon-dialog-information:before,
+.icon-dialog-password:before,
+.icon-dialog-question:before,
+.icon-dialog-warning:before,
+.icon-display-brightness:before,
+.icon-display-projector:before,
+.icon-document-new:before,
+.icon-document-open:before,
+.icon-document-open-recent:before,
+.icon-document-page-setup:before,
+.icon-document-print:before,
+.icon-document-print-preview:before,
+.icon-document-properties:before,
+.icon-document-revert:before,
+.icon-document-revert-rtl:before,
+.icon-document-save:before,
+.icon-document-save-as:before,
+.icon-document-send:before,
+.icon-drive-harddisk:before,
+.icon-drive-harddisk-ieee1394:before,
+.icon-drive-harddisk-system:before,
+.icon-drive-harddisk-usb:before,
+.icon-drive-multidisk:before,
+.icon-drive-optical:before,
+.icon-drive-removable-media:before,
+.icon-edit-clear:before,
+.icon-edit-clear-all:before,
+.icon-edit-clear-rtl:before,
+.icon-edit-copy:before,
+.icon-edit-cut:before,
+.icon-edit-delete:before,
+.icon-edit-find:before,
+.icon-edit-find-replace:before,
+.icon-edit-paste:before,
+.icon-edit-redo:before,
+.icon-edit-redo-rtl:before,
+.icon-edit-select:before,
+.icon-edit-select-all:before,
+.icon-edit-undo:before,
+.icon-edit-undo-rtl:before,
+.icon-emblem-default:before,
+.icon-emblem-documents:before,
+.icon-emblem-downloads:before,
+.icon-emblem-favorite:before,
+.icon-emblem-generic:before,
+.icon-emblem-important:before,
+.icon-emblem-mail:before,
+.icon-emblem-music:before,
+.icon-emblem-new:before,
+.icon-emblem-ok:before,
+.icon-emblem-package:before,
+.icon-emblem-photos:before,
+.icon-emblem-readonly:before,
+.icon-emblem-shared:before,
+.icon-emblem-symbolic-link:before,
+.icon-emblem-synchronizing:before,
+.icon-emblem-system:before,
+.icon-emblem-unreadable:before,
+.icon-emblem-urgent:before,
+.icon-emblem-videos:before,
+.icon-emblem-web:before,
+.icon-find-location:before,
+.icon-folder:before,
+.icon-folder-documents:before,
+.icon-folder-download:before,
+.icon-folder-drag-accept:before,
+.icon-folder-music:before,
+.icon-folder-new:before,
+.icon-folder-open:before,
+.icon-folder-pictures:before,
+.icon-folder-publicshare:before,
+.icon-folder-remote:before,
+.icon-folder-saved-search:before,
+.icon-folder-templates:before,
+.icon-folder-videos:before,
+.icon-folder-visiting:before,
+.icon-format-indent-less:before,
+.icon-format-indent-less-rtl:before,
+.icon-format-indent-more:before,
+.icon-format-indent-more-rtl:before,
+.icon-format-justify-center:before,
+.icon-format-justify-fill:before,
+.icon-format-justify-left:before,
+.icon-format-justify-right:before,
+.icon-format-text-bold:before,
+.icon-format-text-direction-ltr:before,
+.icon-format-text-direction-rtl:before,
+.icon-format-text-italic:before,
+.icon-format-text-strikethrough:before,
+.icon-format-text-underline:before,
+.icon-gnome-power-manager:before,
+.icon-go-bottom:before,
+.icon-go-down:before,
+.icon-go-first:before,
+.icon-go-first-rtl:before,
+.icon-go-home:before,
+.icon-go-jump:before,
+.icon-go-last:before,
+.icon-go-last-rtl:before,
+.icon-go-next:before,
+.icon-go-next-rtl:before,
+.icon-go-previous:before,
+.icon-go-previous-rtl:before,
+.icon-go-top:before,
+.icon-go-up:before,
+.icon-goa-panel:before,
+.icon-help-about:before,
+.icon-help-browser:before,
+.icon-help-contents:before,
+.icon-help-faq:before,
+.icon-image-loading:before,
+.icon-image-missing:before,
+.icon-image-x-generic:before,
+.icon-inode-directory:before,
+.icon-input-dialpad:before,
+.icon-input-gaming:before,
+.icon-input-keyboard:before,
+.icon-input-mouse:before,
+.icon-input-tablet:before,
+.icon-input-touchpad:before,
+.icon-insert-image:before,
+.icon-insert-link:before,
+.icon-insert-object:before,
+.icon-insert-text:before,
+.icon-keyboard-brightness:before,
+.icon-list-add:before,
+.icon-list-remove:before,
+.icon-list-remove-all:before,
+.icon-mail-attachment:before,
+.icon-mail-forward:before,
+.icon-mail-mark-important:before,
+.icon-mail-mark-junk:before,
+.icon-mail-mark-notjunk:before,
+.icon-mail-mark-read:before,
+.icon-mail-mark-unread:before,
+.icon-mail-message-new:before,
+.icon-mail-read:before,
+.icon-mail-replied:before,
+.icon-mail-reply-all:before,
+.icon-mail-reply-sender:before,
+.icon-mail-send:before,
+.icon-mail-send-receive:before,
+.icon-mail-signed:before,
+.icon-mail-signed-verified:before,
+.icon-mail-unread:before,
+.icon-mark-location:before,
+.icon-media-eject:before,
+.icon-media-flash:before,
+.icon-media-floppy:before,
+.icon-media-optical:before,
+.icon-media-optical-bd:before,
+.icon-media-optical-cd-audio:before,
+.icon-media-optical-dvd:before,
+.icon-media-playback-pause:before,
+.icon-media-playback-start:before,
+.icon-media-playback-start-rtl:before,
+.icon-media-playback-stop:before,
+.icon-media-playlist-consecutive:before,
+.icon-media-playlist-consecutive-rtl:before,
+.icon-media-playlist-repeat:before,
+.icon-media-playlist-repeat-rtl:before,
+.icon-media-playlist-repeat-song:before,
+.icon-media-playlist-repeat-song-rtl:before,
+.icon-media-playlist-shuffle:before,
+.icon-media-playlist-shuffle-rtl:before,
+.icon-media-record:before,
+.icon-media-removable:before,
+.icon-media-seek-backward:before,
+.icon-media-seek-backward-rtl:before,
+.icon-media-seek-forward:before,
+.icon-media-seek-forward-rtl:before,
+.icon-media-skip-backward:before,
+.icon-media-skip-backward-rtl:before,
+.icon-media-skip-forward:before,
+.icon-media-skip-forward-rtl:before,
+.icon-media-tape:before,
+.icon-media-view-subtitles:before,
+.icon-media-zip:before,
+.icon-microphone-sensitivity-high:before,
+.icon-microphone-sensitivity-low:before,
+.icon-microphone-sensitivity-medium:before,
+.icon-microphone-sensitivity-muted:before,
+.icon-modem:before,
+.icon-multimedia-player:before,
+.icon-multimedia-player-apple-ipod-touch:before,
+.icon-multimedia-volume-control:before,
+.icon-network-cellular-3g:before,
+.icon-network-cellular-4g:before,
+.icon-network-cellular-acquiring:before,
+.icon-network-cellular-connected:before,
+.icon-network-cellular-edge:before,
+.icon-network-cellular-gprs:before,
+.icon-network-cellular-hspa:before,
+.icon-network-cellular-no-route:before,
+.icon-network-cellular-offline:before,
+.icon-network-cellular-signal-excellent:before,
+.icon-network-cellular-signal-good:before,
+.icon-network-cellular-signal-none:before,
+.icon-network-cellular-signal-ok:before,
+.icon-network-cellular-signal-weak:before,
+.icon-network-error:before,
+.icon-network-idle:before,
+.icon-network-no-route:before,
+.icon-network-offline:before,
+.icon-network-receive:before,
+.icon-network-server:before,
+.icon-network-transmit:before,
+.icon-network-transmit-receive:before,
+.icon-network-vpn:before,
+.icon-network-vpn-acquiring:before,
+.icon-network-wired:before,
+.icon-network-wired-acquiring:before,
+.icon-network-wired-disconnected:before,
+.icon-network-wired-no-route:before,
+.icon-network-wired-offline:before,
+.icon-network-wireless:before,
+.icon-network-wireless-acquiring:before,
+.icon-network-wireless-connected:before,
+.icon-network-wireless-encrypted:before,
+.icon-network-wireless-hotspot:before,
+.icon-network-wireless-no-route:before,
+.icon-network-wireless-offline:before,
+.icon-network-wireless-signal-excellent:before,
+.icon-network-wireless-signal-good:before,
+.icon-network-wireless-signal-none:before,
+.icon-network-wireless-signal-ok:before,
+.icon-network-wireless-signal-weak:before,
+.icon-network-workgroup:before,
+.icon-non-starred:before,
+.icon-object-flip-horizontal:before,
+.icon-object-flip-vertical:before,
+.icon-object-rotate-left:before,
+.icon-object-rotate-right:before,
+.icon-object-select:before,
+.icon-open-menu:before,
+.icon-package-x-generic:before,
+.icon-pan-down:before,
+.icon-pan-end:before,
+.icon-pan-end-rtl:before,
+.icon-pan-start:before,
+.icon-pan-start-rtl:before,
+.icon-pan-up:before,
+.icon-pda:before,
+.icon-phone:before,
+.icon-phone-apple-iphone:before,
+.icon-preferences-color:before,
+.icon-preferences-desktop:before,
+.icon-preferences-desktop-accessibility:before,
+.icon-preferences-desktop-display:before,
+.icon-preferences-desktop-font:before,
+.icon-preferences-desktop-keyboard:before,
+.icon-preferences-desktop-keyboard-shortcuts:before,
+.icon-preferences-desktop-locale:before,
+.icon-preferences-desktop-peripherals:before,
+.icon-preferences-desktop-personal:before,
+.icon-preferences-desktop-remote-desktop:before,
+.icon-preferences-desktop-screensaver:before,
+.icon-preferences-desktop-theme:before,
+.icon-preferences-desktop-wallpaper:before,
+.icon-preferences-other:before,
+.icon-preferences-system:before,
+.icon-preferences-system-network:before,
+.icon-preferences-system-network-proxy:before,
+.icon-preferences-system-notifications:before,
+.icon-preferences-system-privacy:before,
+.icon-preferences-system-search:before,
+.icon-preferences-system-sharing:before,
+.icon-preferences-system-time:before,
+.icon-preferences-system-windows:before,
+.icon-printer:before,
+.icon-printer-error:before,
+.icon-printer-network:before,
+.icon-printer-printing:before,
+.icon-printer-warning:before,
+.icon-process-stop:before,
+.icon-radio:before,
+.icon-radio-checked:before,
+.icon-radio-mixed:before,
+.icon-rotation-allowed:before,
+.icon-rotation-locked:before,
+.icon-scanner:before,
+.icon-security-high:before,
+.icon-security-low:before,
+.icon-security-medium:before,
+.icon-selection-end:before,
+.icon-selection-end-rtl:before,
+.icon-selection-start:before,
+.icon-selection-start-rtl:before,
+.icon-semi-starred:before,
+.icon-semi-starred-rtl:before,
+.icon-send-to:before,
+.icon-software-update-available:before,
+.icon-software-update-urgent:before,
+.icon-star-new:before,
+.icon-starred:before,
+.icon-start-here:before,
+.icon-system-file-manager:before,
+.icon-system-help:before,
+.icon-system-lock-screen:before,
+.icon-system-log-out:before,
+.icon-system-run:before,
+.icon-system-search:before,
+.icon-system-shutdown:before,
+.icon-system-software-install:before,
+.icon-system-software-update:before,
+.icon-system-users:before,
+.icon-tab-new:before,
+.icon-task-due:before,
+.icon-task-past-due:before,
+.icon-text-editor:before,
+.icon-text-x-generic:before,
+.icon-tools-check-spelling:before,
+.icon-touchpad-disabled:before,
+.icon-trophy-bronze:before,
+.icon-trophy-gold:before,
+.icon-trophy-silver:before,
+.icon-uninterruptible-power-supply:before,
+.icon-user-available:before,
+.icon-user-away:before,
+.icon-user-bookmarks:before,
+.icon-user-busy:before,
+.icon-user-desktop:before,
+.icon-user-home:before,
+.icon-user-idle:before,
+.icon-user-info:before,
+.icon-user-invisible:before,
+.icon-user-offline:before,
+.icon-user-status-pending:before,
+.icon-user-trash:before,
+.icon-user-trash-full:before,
+.icon-utilities-system-monitor:before,
+.icon-utilities-terminal:before,
+.icon-video-display:before,
+.icon-video-x-generic:before,
+.icon-view-continuous:before,
+.icon-view-dual:before,
+.icon-view-fullscreen:before,
+.icon-view-grid:before,
+.icon-view-list:before,
+.icon-view-more:before,
+.icon-view-paged:before,
+.icon-view-refresh:before,
+.icon-view-restore:before,
+.icon-view-sort-ascending:before,
+.icon-view-sort-descending:before,
+.icon-view-wrapped:before,
+.icon-view-wrapped-rtl:before,
+.icon-weather-clear:before,
+.icon-weather-clear-night:before,
+.icon-weather-few-clouds:before,
+.icon-weather-few-clouds-night:before,
+.icon-weather-fog:before,
+.icon-weather-overcast:before,
+.icon-weather-severe-alert:before,
+.icon-weather-showers:before,
+.icon-weather-showers-scattered:before,
+.icon-weather-snow:before,
+.icon-weather-storm:before,
+.icon-web-browser:before,
+.icon-window-close:before,
+.icon-window-maximize:before,
+.icon-window-minimize:before,
+.icon-window-new:before,
+.icon-window-restore:before,
+.icon-x-office-address-book:before,
+.icon-x-office-calendar:before,
+.icon-x-office-document:before,
+.icon-x-office-drawing:before,
+.icon-x-office-presentation:before,
+.icon-x-office-spreadsheet:before,
+.icon-zoom-fit-best:before,
+.icon-zoom-in:before,
+.icon-zoom-original:before,
+.icon-zoom-out:before {
+  display: inline-block;
+  font-family: "fontcustom";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+}
+
+.icon-ac-adapter:before { content: "\f100"; }
+.icon-accessories-calculator:before { content: "\f101"; }
+.icon-accessories-character-map:before { content: "\f102"; }
+.icon-accessories-dictionary:before { content: "\f103"; }
+.icon-accessories-text-editor:before { content: "\f104"; }
+.icon-action-unavailable:before { content: "\f105"; }
+.icon-address-book-new:before { content: "\f106"; }
+.icon-airplane-mode:before { content: "\f107"; }
+.icon-alarm:before { content: "\f108"; }
+.icon-applets-screenshooter:before { content: "\f109"; }
+.icon-application-certificate:before { content: "\f10a"; }
+.icon-application-exit:before { content: "\f10b"; }
+.icon-application-rss-xml:before { content: "\f10c"; }
+.icon-application-x-appliance:before { content: "\f10d"; }
+.icon-applications-accessories:before { content: "\f10e"; }
+.icon-applications-development:before { content: "\f10f"; }
+.icon-applications-engineering:before { content: "\f110"; }
+.icon-applications-games:before { content: "\f111"; }
+.icon-applications-graphics:before { content: "\f112"; }
+.icon-applications-internet:before { content: "\f113"; }
+.icon-applications-multimedia:before { content: "\f114"; }
+.icon-applications-office:before { content: "\f115"; }
+.icon-applications-other:before { content: "\f116"; }
+.icon-applications-science:before { content: "\f117"; }
+.icon-applications-system:before { content: "\f118"; }
+.icon-applications-utilities:before { content: "\f119"; }
+.icon-appointment-missed:before { content: "\f11a"; }
+.icon-appointment-new:before { content: "\f11b"; }
+.icon-appointment-soon:before { content: "\f11c"; }
+.icon-audio-card:before { content: "\f11d"; }
+.icon-audio-headphones:before { content: "\f11e"; }
+.icon-audio-headset:before { content: "\f11f"; }
+.icon-audio-input-microphone:before { content: "\f120"; }
+.icon-audio-speakers:before { content: "\f121"; }
+.icon-audio-volume-high:before { content: "\f122"; }
+.icon-audio-volume-low:before { content: "\f123"; }
+.icon-audio-volume-medium:before { content: "\f124"; }
+.icon-audio-volume-muted:before { content: "\f125"; }
+.icon-audio-x-generic:before { content: "\f126"; }
+.icon-avatar-default:before { content: "\f127"; }
+.icon-battery:before { content: "\f128"; }
+.icon-battery-caution:before { content: "\f129"; }
+.icon-battery-caution-charging:before { content: "\f12a"; }
+.icon-battery-empty:before { content: "\f12b"; }
+.icon-battery-empty-charging:before { content: "\f12c"; }
+.icon-battery-full:before { content: "\f12d"; }
+.icon-battery-full-charged:before { content: "\f12e"; }
+.icon-battery-full-charging:before { content: "\f12f"; }
+.icon-battery-good:before { content: "\f130"; }
+.icon-battery-good-charging:before { content: "\f131"; }
+.icon-battery-low:before { content: "\f132"; }
+.icon-battery-low-charging:before { content: "\f133"; }
+.icon-battery-missing:before { content: "\f134"; }
+.icon-bluetooth:before { content: "\f135"; }
+.icon-bluetooth-active:before { content: "\f136"; }
+.icon-bluetooth-disabled:before { content: "\f137"; }
+.icon-bookmark-new:before { content: "\f138"; }
+.icon-call-missed:before { content: "\f139"; }
+.icon-call-start:before { content: "\f13a"; }
+.icon-call-stop:before { content: "\f13b"; }
+.icon-camera-photo:before { content: "\f13c"; }
+.icon-camera-video:before { content: "\f13d"; }
+.icon-camera-web:before { content: "\f13e"; }
+.icon-changes-allow:before { content: "\f13f"; }
+.icon-changes-prevent:before { content: "\f140"; }
+.icon-channel-insecure:before { content: "\f141"; }
+.icon-channel-secure:before { content: "\f142"; }
+.icon-checkbox:before { content: "\f143"; }
+.icon-checkbox-checked:before { content: "\f144"; }
+.icon-checkbox-mixed:before { content: "\f145"; }
+.icon-colorimeter-colorhug:before { content: "\f146"; }
+.icon-computer:before { content: "\f147"; }
+.icon-computer-apple-ipad:before { content: "\f148"; }
+.icon-computer-fail:before { content: "\f149"; }
+.icon-contact-new:before { content: "\f14a"; }
+.icon-content-loading:before { content: "\f14b"; }
+.icon-dialog-error:before { content: "\f14c"; }
+.icon-dialog-information:before { content: "\f14d"; }
+.icon-dialog-password:before { content: "\f14e"; }
+.icon-dialog-question:before { content: "\f14f"; }
+.icon-dialog-warning:before { content: "\f150"; }
+.icon-display-brightness:before { content: "\f151"; }
+.icon-display-projector:before { content: "\f152"; }
+.icon-document-new:before { content: "\f153"; }
+.icon-document-open:before { content: "\f154"; }
+.icon-document-open-recent:before { content: "\f155"; }
+.icon-document-page-setup:before { content: "\f156"; }
+.icon-document-print:before { content: "\f157"; }
+.icon-document-print-preview:before { content: "\f158"; }
+.icon-document-properties:before { content: "\f159"; }
+.icon-document-revert:before { content: "\f15a"; }
+.icon-document-revert-rtl:before { content: "\f15b"; }
+.icon-document-save:before { content: "\f15c"; }
+.icon-document-save-as:before { content: "\f15d"; }
+.icon-document-send:before { content: "\f15e"; }
+.icon-drive-harddisk:before { content: "\f15f"; }
+.icon-drive-harddisk-ieee1394:before { content: "\f160"; }
+.icon-drive-harddisk-system:before { content: "\f161"; }
+.icon-drive-harddisk-usb:before { content: "\f162"; }
+.icon-drive-multidisk:before { content: "\f163"; }
+.icon-drive-optical:before { content: "\f164"; }
+.icon-drive-removable-media:before { content: "\f165"; }
+.icon-edit-clear:before { content: "\f166"; }
+.icon-edit-clear-all:before { content: "\f167"; }
+.icon-edit-clear-rtl:before { content: "\f168"; }
+.icon-edit-copy:before { content: "\f169"; }
+.icon-edit-cut:before { content: "\f16a"; }
+.icon-edit-delete:before { content: "\f16b"; }
+.icon-edit-find:before { content: "\f16c"; }
+.icon-edit-find-replace:before { content: "\f16d"; }
+.icon-edit-paste:before { content: "\f16e"; }
+.icon-edit-redo:before { content: "\f16f"; }
+.icon-edit-redo-rtl:before { content: "\f170"; }
+.icon-edit-select:before { content: "\f171"; }
+.icon-edit-select-all:before { content: "\f172"; }
+.icon-edit-undo:before { content: "\f173"; }
+.icon-edit-undo-rtl:before { content: "\f174"; }
+.icon-emblem-default:before { content: "\f175"; }
+.icon-emblem-documents:before { content: "\f176"; }
+.icon-emblem-downloads:before { content: "\f177"; }
+.icon-emblem-favorite:before { content: "\f178"; }
+.icon-emblem-generic:before { content: "\f179"; }
+.icon-emblem-important:before { content: "\f17a"; }
+.icon-emblem-mail:before { content: "\f17b"; }
+.icon-emblem-music:before { content: "\f17c"; }
+.icon-emblem-new:before { content: "\f17d"; }
+.icon-emblem-ok:before { content: "\f17e"; }
+.icon-emblem-package:before { content: "\f17f"; }
+.icon-emblem-photos:before { content: "\f180"; }
+.icon-emblem-readonly:before { content: "\f181"; }
+.icon-emblem-shared:before { content: "\f182"; }
+.icon-emblem-symbolic-link:before { content: "\f183"; }
+.icon-emblem-synchronizing:before { content: "\f184"; }
+.icon-emblem-system:before { content: "\f185"; }
+.icon-emblem-unreadable:before { content: "\f186"; }
+.icon-emblem-urgent:before { content: "\f187"; }
+.icon-emblem-videos:before { content: "\f188"; }
+.icon-emblem-web:before { content: "\f189"; }
+.icon-find-location:before { content: "\f18a"; }
+.icon-folder:before { content: "\f18b"; }
+.icon-folder-documents:before { content: "\f18c"; }
+.icon-folder-download:before { content: "\f18d"; }
+.icon-folder-drag-accept:before { content: "\f18e"; }
+.icon-folder-music:before { content: "\f18f"; }
+.icon-folder-new:before { content: "\f190"; }
+.icon-folder-open:before { content: "\f191"; }
+.icon-folder-pictures:before { content: "\f192"; }
+.icon-folder-publicshare:before { content: "\f193"; }
+.icon-folder-remote:before { content: "\f194"; }
+.icon-folder-saved-search:before { content: "\f195"; }
+.icon-folder-templates:before { content: "\f196"; }
+.icon-folder-videos:before { content: "\f197"; }
+.icon-folder-visiting:before { content: "\f198"; }
+.icon-format-indent-less:before { content: "\f199"; }
+.icon-format-indent-less-rtl:before { content: "\f19a"; }
+.icon-format-indent-more:before { content: "\f19b"; }
+.icon-format-indent-more-rtl:before { content: "\f19c"; }
+.icon-format-justify-center:before { content: "\f19d"; }
+.icon-format-justify-fill:before { content: "\f19e"; }
+.icon-format-justify-left:before { content: "\f19f"; }
+.icon-format-justify-right:before { content: "\f1a0"; }
+.icon-format-text-bold:before { content: "\f1a1"; }
+.icon-format-text-direction-ltr:before { content: "\f1a2"; }
+.icon-format-text-direction-rtl:before { content: "\f1a3"; }
+.icon-format-text-italic:before { content: "\f1a4"; }
+.icon-format-text-strikethrough:before { content: "\f1a5"; }
+.icon-format-text-underline:before { content: "\f1a6"; }
+.icon-gnome-power-manager:before { content: "\f1a7"; }
+.icon-go-bottom:before { content: "\f1a8"; }
+.icon-go-down:before { content: "\f1a9"; }
+.icon-go-first:before { content: "\f1aa"; }
+.icon-go-first-rtl:before { content: "\f1ab"; }
+.icon-go-home:before { content: "\f1ac"; }
+.icon-go-jump:before { content: "\f1ad"; }
+.icon-go-last:before { content: "\f1ae"; }
+.icon-go-last-rtl:before { content: "\f1af"; }
+.icon-go-next:before { content: "\f1b0"; }
+.icon-go-next-rtl:before { content: "\f1b1"; }
+.icon-go-previous:before { content: "\f1b2"; }
+.icon-go-previous-rtl:before { content: "\f1b3"; }
+.icon-go-top:before { content: "\f1b4"; }
+.icon-go-up:before { content: "\f1b5"; }
+.icon-goa-panel:before { content: "\f1b6"; }
+.icon-help-about:before { content: "\f1b7"; }
+.icon-help-browser:before { content: "\f1b8"; }
+.icon-help-contents:before { content: "\f1b9"; }
+.icon-help-faq:before { content: "\f1ba"; }
+.icon-image-loading:before { content: "\f1bb"; }
+.icon-image-missing:before { content: "\f1bc"; }
+.icon-image-x-generic:before { content: "\f1bd"; }
+.icon-inode-directory:before { content: "\f1be"; }
+.icon-input-dialpad:before { content: "\f1bf"; }
+.icon-input-gaming:before { content: "\f1c0"; }
+.icon-input-keyboard:before { content: "\f1c1"; }
+.icon-input-mouse:before { content: "\f1c2"; }
+.icon-input-tablet:before { content: "\f1c3"; }
+.icon-input-touchpad:before { content: "\f1c4"; }
+.icon-insert-image:before { content: "\f1c5"; }
+.icon-insert-link:before { content: "\f1c6"; }
+.icon-insert-object:before { content: "\f1c7"; }
+.icon-insert-text:before { content: "\f1c8"; }
+.icon-keyboard-brightness:before { content: "\f1c9"; }
+.icon-list-add:before { content: "\f1ca"; }
+.icon-list-remove:before { content: "\f1cb"; }
+.icon-list-remove-all:before { content: "\f1cc"; }
+.icon-mail-attachment:before { content: "\f1cd"; }
+.icon-mail-forward:before { content: "\f1ce"; }
+.icon-mail-mark-important:before { content: "\f1cf"; }
+.icon-mail-mark-junk:before { content: "\f1d0"; }
+.icon-mail-mark-notjunk:before { content: "\f1d1"; }
+.icon-mail-mark-read:before { content: "\f1d2"; }
+.icon-mail-mark-unread:before { content: "\f1d3"; }
+.icon-mail-message-new:before { content: "\f1d4"; }
+.icon-mail-read:before { content: "\f1d5"; }
+.icon-mail-replied:before { content: "\f1d6"; }
+.icon-mail-reply-all:before { content: "\f1d7"; }
+.icon-mail-reply-sender:before { content: "\f1d8"; }
+.icon-mail-send:before { content: "\f1d9"; }
+.icon-mail-send-receive:before { content: "\f1da"; }
+.icon-mail-signed:before { content: "\f1db"; }
+.icon-mail-signed-verified:before { content: "\f1dc"; }
+.icon-mail-unread:before { content: "\f1dd"; }
+.icon-mark-location:before { content: "\f1de"; }
+.icon-media-eject:before { content: "\f1df"; }
+.icon-media-flash:before { content: "\f1e0"; }
+.icon-media-floppy:before { content: "\f1e1"; }
+.icon-media-optical:before { content: "\f1e2"; }
+.icon-media-optical-bd:before { content: "\f1e3"; }
+.icon-media-optical-cd-audio:before { content: "\f1e4"; }
+.icon-media-optical-dvd:before { content: "\f1e5"; }
+.icon-media-playback-pause:before { content: "\f1e6"; }
+.icon-media-playback-start:before { content: "\f1e7"; }
+.icon-media-playback-start-rtl:before { content: "\f1e8"; }
+.icon-media-playback-stop:before { content: "\f1e9"; }
+.icon-media-playlist-consecutive:before { content: "\f1ea"; }
+.icon-media-playlist-consecutive-rtl:before { content: "\f1eb"; }
+.icon-media-playlist-repeat:before { content: "\f1ec"; }
+.icon-media-playlist-repeat-rtl:before { content: "\f1ed"; }
+.icon-media-playlist-repeat-song:before { content: "\f1ee"; }
+.icon-media-playlist-repeat-song-rtl:before { content: "\f1ef"; }
+.icon-media-playlist-shuffle:before { content: "\f1f0"; }
+.icon-media-playlist-shuffle-rtl:before { content: "\f1f1"; }
+.icon-media-record:before { content: "\f1f2"; }
+.icon-media-removable:before { content: "\f1f3"; }
+.icon-media-seek-backward:before { content: "\f1f4"; }
+.icon-media-seek-backward-rtl:before { content: "\f1f5"; }
+.icon-media-seek-forward:before { content: "\f1f6"; }
+.icon-media-seek-forward-rtl:before { content: "\f1f7"; }
+.icon-media-skip-backward:before { content: "\f1f8"; }
+.icon-media-skip-backward-rtl:before { content: "\f1f9"; }
+.icon-media-skip-forward:before { content: "\f1fa"; }
+.icon-media-skip-forward-rtl:before { content: "\f1fb"; }
+.icon-media-tape:before { content: "\f1fc"; }
+.icon-media-view-subtitles:before { content: "\f1fd"; }
+.icon-media-zip:before { content: "\f1fe"; }
+.icon-microphone-sensitivity-high:before { content: "\f1ff"; }
+.icon-microphone-sensitivity-low:before { content: "\f200"; }
+.icon-microphone-sensitivity-medium:before { content: "\f201"; }
+.icon-microphone-sensitivity-muted:before { content: "\f202"; }
+.icon-modem:before { content: "\f203"; }
+.icon-multimedia-player:before { content: "\f204"; }
+.icon-multimedia-player-apple-ipod-touch:before { content: "\f205"; }
+.icon-multimedia-volume-control:before { content: "\f206"; }
+.icon-network-cellular-3g:before { content: "\f207"; }
+.icon-network-cellular-4g:before { content: "\f208"; }
+.icon-network-cellular-acquiring:before { content: "\f209"; }
+.icon-network-cellular-connected:before { content: "\f20a"; }
+.icon-network-cellular-edge:before { content: "\f20b"; }
+.icon-network-cellular-gprs:before { content: "\f20c"; }
+.icon-network-cellular-hspa:before { content: "\f20d"; }
+.icon-network-cellular-no-route:before { content: "\f20e"; }
+.icon-network-cellular-offline:before { content: "\f20f"; }
+.icon-network-cellular-signal-excellent:before { content: "\f210"; }
+.icon-network-cellular-signal-good:before { content: "\f211"; }
+.icon-network-cellular-signal-none:before { content: "\f212"; }
+.icon-network-cellular-signal-ok:before { content: "\f213"; }
+.icon-network-cellular-signal-weak:before { content: "\f214"; }
+.icon-network-error:before { content: "\f215"; }
+.icon-network-idle:before { content: "\f216"; }
+.icon-network-no-route:before { content: "\f217"; }
+.icon-network-offline:before { content: "\f218"; }
+.icon-network-receive:before { content: "\f219"; }
+.icon-network-server:before { content: "\f21a"; }
+.icon-network-transmit:before { content: "\f21b"; }
+.icon-network-transmit-receive:before { content: "\f21c"; }
+.icon-network-vpn:before { content: "\f21d"; }
+.icon-network-vpn-acquiring:before { content: "\f21e"; }
+.icon-network-wired:before { content: "\f21f"; }
+.icon-network-wired-acquiring:before { content: "\f220"; }
+.icon-network-wired-disconnected:before { content: "\f221"; }
+.icon-network-wired-no-route:before { content: "\f222"; }
+.icon-network-wired-offline:before { content: "\f223"; }
+.icon-network-wireless:before { content: "\f224"; }
+.icon-network-wireless-acquiring:before { content: "\f225"; }
+.icon-network-wireless-connected:before { content: "\f226"; }
+.icon-network-wireless-encrypted:before { content: "\f227"; }
+.icon-network-wireless-hotspot:before { content: "\f228"; }
+.icon-network-wireless-no-route:before { content: "\f229"; }
+.icon-network-wireless-offline:before { content: "\f22a"; }
+.icon-network-wireless-signal-excellent:before { content: "\f22b"; }
+.icon-network-wireless-signal-good:before { content: "\f22c"; }
+.icon-network-wireless-signal-none:before { content: "\f22d"; }
+.icon-network-wireless-signal-ok:before { content: "\f22e"; }
+.icon-network-wireless-signal-weak:before { content: "\f22f"; }
+.icon-network-workgroup:before { content: "\f230"; }
+.icon-non-starred:before { content: "\f231"; }
+.icon-object-flip-horizontal:before { content: "\f232"; }
+.icon-object-flip-vertical:before { content: "\f233"; }
+.icon-object-rotate-left:before { content: "\f234"; }
+.icon-object-rotate-right:before { content: "\f235"; }
+.icon-object-select:before { content: "\f236"; }
+.icon-open-menu:before { content: "\f237"; }
+.icon-package-x-generic:before { content: "\f238"; }
+.icon-pan-down:before { content: "\f239"; }
+.icon-pan-end:before { content: "\f23a"; }
+.icon-pan-end-rtl:before { content: "\f23b"; }
+.icon-pan-start:before { content: "\f23c"; }
+.icon-pan-start-rtl:before { content: "\f23d"; }
+.icon-pan-up:before { content: "\f23e"; }
+.icon-pda:before { content: "\f23f"; }
+.icon-phone:before { content: "\f240"; }
+.icon-phone-apple-iphone:before { content: "\f241"; }
+.icon-preferences-color:before { content: "\f242"; }
+.icon-preferences-desktop:before { content: "\f243"; }
+.icon-preferences-desktop-accessibility:before { content: "\f244"; }
+.icon-preferences-desktop-display:before { content: "\f245"; }
+.icon-preferences-desktop-font:before { content: "\f246"; }
+.icon-preferences-desktop-keyboard:before { content: "\f247"; }
+.icon-preferences-desktop-keyboard-shortcuts:before { content: "\f248"; }
+.icon-preferences-desktop-locale:before { content: "\f249"; }
+.icon-preferences-desktop-peripherals:before { content: "\f24a"; }
+.icon-preferences-desktop-personal:before { content: "\f24b"; }
+.icon-preferences-desktop-remote-desktop:before { content: "\f24c"; }
+.icon-preferences-desktop-screensaver:before { content: "\f24d"; }
+.icon-preferences-desktop-theme:before { content: "\f24e"; }
+.icon-preferences-desktop-wallpaper:before { content: "\f24f"; }
+.icon-preferences-other:before { content: "\f250"; }
+.icon-preferences-system:before { content: "\f251"; }
+.icon-preferences-system-network:before { content: "\f252"; }
+.icon-preferences-system-network-proxy:before { content: "\f253"; }
+.icon-preferences-system-notifications:before { content: "\f254"; }
+.icon-preferences-system-privacy:before { content: "\f255"; }
+.icon-preferences-system-search:before { content: "\f256"; }
+.icon-preferences-system-sharing:before { content: "\f257"; }
+.icon-preferences-system-time:before { content: "\f258"; }
+.icon-preferences-system-windows:before { content: "\f259"; }
+.icon-printer:before { content: "\f25a"; }
+.icon-printer-error:before { content: "\f25b"; }
+.icon-printer-network:before { content: "\f25c"; }
+.icon-printer-printing:before { content: "\f25d"; }
+.icon-printer-warning:before { content: "\f25e"; }
+.icon-process-stop:before { content: "\f25f"; }
+.icon-radio:before { content: "\f260"; }
+.icon-radio-checked:before { content: "\f261"; }
+.icon-radio-mixed:before { content: "\f262"; }
+.icon-rotation-allowed:before { content: "\f263"; }
+.icon-rotation-locked:before { content: "\f264"; }
+.icon-scanner:before { content: "\f265"; }
+.icon-security-high:before { content: "\f266"; }
+.icon-security-low:before { content: "\f267"; }
+.icon-security-medium:before { content: "\f268"; }
+.icon-selection-end:before { content: "\f269"; }
+.icon-selection-end-rtl:before { content: "\f26a"; }
+.icon-selection-start:before { content: "\f26b"; }
+.icon-selection-start-rtl:before { content: "\f26c"; }
+.icon-semi-starred:before { content: "\f26d"; }
+.icon-semi-starred-rtl:before { content: "\f26e"; }
+.icon-send-to:before { content: "\f26f"; }
+.icon-software-update-available:before { content: "\f270"; }
+.icon-software-update-urgent:before { content: "\f271"; }
+.icon-star-new:before { content: "\f272"; }
+.icon-starred:before { content: "\f273"; }
+.icon-start-here:before { content: "\f274"; }
+.icon-system-file-manager:before { content: "\f275"; }
+.icon-system-help:before { content: "\f276"; }
+.icon-system-lock-screen:before { content: "\f277"; }
+.icon-system-log-out:before { content: "\f278"; }
+.icon-system-run:before { content: "\f279"; }
+.icon-system-search:before { content: "\f27a"; }
+.icon-system-shutdown:before { content: "\f27b"; }
+.icon-system-software-install:before { content: "\f27c"; }
+.icon-system-software-update:before { content: "\f27d"; }
+.icon-system-users:before { content: "\f27e"; }
+.icon-tab-new:before { content: "\f27f"; }
+.icon-task-due:before { content: "\f280"; }
+.icon-task-past-due:before { content: "\f281"; }
+.icon-text-editor:before { content: "\f282"; }
+.icon-text-x-generic:before { content: "\f283"; }
+.icon-tools-check-spelling:before { content: "\f284"; }
+.icon-touchpad-disabled:before { content: "\f285"; }
+.icon-trophy-bronze:before { content: "\f286"; }
+.icon-trophy-gold:before { content: "\f287"; }
+.icon-trophy-silver:before { content: "\f288"; }
+.icon-uninterruptible-power-supply:before { content: "\f289"; }
+.icon-user-available:before { content: "\f28a"; }
+.icon-user-away:before { content: "\f28b"; }
+.icon-user-bookmarks:before { content: "\f28c"; }
+.icon-user-busy:before { content: "\f28d"; }
+.icon-user-desktop:before { content: "\f28e"; }
+.icon-user-home:before { content: "\f28f"; }
+.icon-user-idle:before { content: "\f290"; }
+.icon-user-info:before { content: "\f291"; }
+.icon-user-invisible:before { content: "\f292"; }
+.icon-user-offline:before { content: "\f293"; }
+.icon-user-status-pending:before { content: "\f294"; }
+.icon-user-trash:before { content: "\f295"; }
+.icon-user-trash-full:before { content: "\f296"; }
+.icon-utilities-system-monitor:before { content: "\f297"; }
+.icon-utilities-terminal:before { content: "\f298"; }
+.icon-video-display:before { content: "\f299"; }
+.icon-video-x-generic:before { content: "\f29a"; }
+.icon-view-continuous:before { content: "\f29b"; }
+.icon-view-dual:before { content: "\f29c"; }
+.icon-view-fullscreen:before { content: "\f29d"; }
+.icon-view-grid:before { content: "\f29e"; }
+.icon-view-list:before { content: "\f29f"; }
+.icon-view-more:before { content: "\f2a0"; }
+.icon-view-paged:before { content: "\f2a1"; }
+.icon-view-refresh:before { content: "\f2a2"; }
+.icon-view-restore:before { content: "\f2a3"; }
+.icon-view-sort-ascending:before { content: "\f2a4"; }
+.icon-view-sort-descending:before { content: "\f2a5"; }
+.icon-view-wrapped:before { content: "\f2a6"; }
+.icon-view-wrapped-rtl:before { content: "\f2a7"; }
+.icon-weather-clear:before { content: "\f2a8"; }
+.icon-weather-clear-night:before { content: "\f2a9"; }
+.icon-weather-few-clouds:before { content: "\f2aa"; }
+.icon-weather-few-clouds-night:before { content: "\f2ab"; }
+.icon-weather-fog:before { content: "\f2ac"; }
+.icon-weather-overcast:before { content: "\f2ad"; }
+.icon-weather-severe-alert:before { content: "\f2ae"; }
+.icon-weather-showers:before { content: "\f2af"; }
+.icon-weather-showers-scattered:before { content: "\f2b0"; }
+.icon-weather-snow:before { content: "\f2b1"; }
+.icon-weather-storm:before { content: "\f2b2"; }
+.icon-web-browser:before { content: "\f2b3"; }
+.icon-window-close:before { content: "\f2b4"; }
+.icon-window-maximize:before { content: "\f2b5"; }
+.icon-window-minimize:before { content: "\f2b6"; }
+.icon-window-new:before { content: "\f2b7"; }
+.icon-window-restore:before { content: "\f2b8"; }
+.icon-x-office-address-book:before { content: "\f2b9"; }
+.icon-x-office-calendar:before { content: "\f2ba"; }
+.icon-x-office-document:before { content: "\f2bb"; }
+.icon-x-office-drawing:before { content: "\f2bc"; }
+.icon-x-office-presentation:before { content: "\f2bd"; }
+.icon-x-office-spreadsheet:before { content: "\f2be"; }
+.icon-zoom-fit-best:before { content: "\f2bf"; }
+.icon-zoom-in:before { content: "\f2c0"; }
+.icon-zoom-original:before { content: "\f2c1"; }
+.icon-zoom-out:before { content: "\f2c2"; }
