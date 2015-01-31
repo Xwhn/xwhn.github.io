@@ -101,7 +101,23 @@ html, body {
     background: #a0234a;
 }
 
-#fourthpage {
+#about {
     height: 100%;
-    background: #3e628d;
+}
+
+.abouttext {
+    height: 64px;
+    line-height: 64px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.aboutinner {
+    position: relative;
+    top: calc(50% - 32px);
+    text-align: center;
+    background: #000;
+    width: 50%;
+    margin: 0 auto;
 }
