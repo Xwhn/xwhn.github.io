@@ -11,12 +11,13 @@
 
     <script src="script/text.js"></script>
     <script src="script/typed.js"></script>
+    <script src = "script/processing.min.js"></script>
 </head>
 <body>
     <section id="home">
         <div class="container">
             <div class="inner">
-                <div class="rect"></div>
+                <canvas class="rect" data-processing-sources="script/fz.pde"></canvas>
                 <div class="blank"></div>
                 <span class="typing"></span>
             </div>
@@ -24,10 +25,11 @@
                 <span class="note">* dragging mouse to the left and right side of the screen for the navigation bars</span>
             </div>
             <div class="rightmenu">
-                <a href="#home"><div class="firstright">
+                <a href="#home">
+                   <div class="firstright">
                     <img src="assets/icons/home.svg">
                 </div></a>
-                <a href="#secondpage"><div class="secondright">
+                <a href="#works"><div class="secondright">
                     <img src="assets/icons/works.svg">
                 </div></a>
                 <a href="#thirdpage"><div class="thirdright">
@@ -39,26 +41,28 @@
                 <div class="hiddenright"></div>
             </div>
             <div class="leftmenu">
-                <div class="firstleft">
+                <a href="http://ello.co/xwhn" target="_blank"><div class="firstleft">
                     <img src="assets/icons/ello.svg">
-                </div>
-                <div class="secondleft">
+                </div></a>
+                <a href="http://facebook.com" target="_blank"><div class="secondleft">
                     <img src="assets/icons/facebook.svg">
-                </div>
-                <div class="thirdleft">
+                </div></a>
+                <a href="http://twitter.com/xwhn_" target="_blank"><div class="thirdleft">
                     <img src="assets/icons/twitter.svg">
-                </div>
-                <div class="fourthleft">
+                </div></a>
+                <a href="http://github.com/xwhn" target="_blank"><div class="fourthleft">
                     <img src="assets/icons/github.svg">
-                </div>
+                </div></a>
                 <div class="hiddenleft"></div>
             </div>
         </div>
     </section>
 
-    <section id="secondpage">
+    <section id="works">
         <div class="container">
-
+            <div class="worksinner">
+                <a href="http://xwhn.github.io/integricon"><div class="workstext">Integricon</div></a>
+            </div>
         </div>
     </section>
 

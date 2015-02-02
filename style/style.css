@@ -9,6 +9,8 @@ html, body {
     font-family: 'Open Sans', sans-serif;
 }
 
+a {text-decoration: none;}
+
 #home {
     height: 100%;
     background: #fff;
@@ -41,7 +43,6 @@ html, body {
 }
 
 .rect {
-    background: url(../assets/image.png) no-repeat center center fixed;
     height: 256px;
     width: 512px;
 
@@ -91,9 +92,25 @@ html, body {
         }
 
 
-#secondpage {
+#works {
     height: 100%;
-    background: #819a2f;
+}
+
+.workstext {
+    height: 64px;
+    line-height: 64px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.worksinner {
+    position: relative;
+    top: calc(50% - 32px);
+    text-align: center;
+    background: #000;
+    width: 25%;
+    margin: 0 auto;
 }
 
 #thirdpage {
